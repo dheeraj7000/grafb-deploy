@@ -2,10 +2,6 @@ type Post @model {
   title: String!
   content: String!
   author: String!
-  comments: [Comment]
+  imgurl: String!
 }
 
-type Comment @model {
-  message: String!
-  post: Post
-}
